@@ -4,7 +4,7 @@
 
 <img width="300" alt="스크린샷" src="">
 
-## 📌 기능 상세
+## 📌 Main Features
 
 - OnBoding Screen with Page Tab View
 
@@ -66,9 +66,27 @@
 
 ```
 
-### 🔷 Onboarding screen using the new page TabView
+```swift
 
-### 🔷 Create data model and fetch data
+```
+
+```swift
+
+```
+
+#### 👉
+
+#### 👉
+
+#### 👉
+
+#### 👉
+
+#### 👉
+
+#### 👉
+
+#### 👉
 
 ### 🔷 SwiftUI LifeCycle
 
