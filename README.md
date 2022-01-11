@@ -41,15 +41,15 @@
 
 - assets import
 
-      - Appicon
+  - Appicon
 
-      - Fruits
+  - Fruits
 
-      - logo : It is svg file that need to selecting preserve vector data in image set. It can be scalable sized in vector file
+  - logo : It is svg file that need to selecting preserve vector data in image set. It can be scalable sized in vector file
 
-      - Colors : To show fruits background color individually
+  - Colors : To show fruits background color individually
 
-      - Accent Colors : It is widely used for Buttons and other different UI elements in navigation
+  - Accent Colors : It is widely used for Buttons and other different UI elements in navigation
 
 ![image](https://user-images.githubusercontent.com/28912774/148872186-36e5f78e-f3d9-42e5-bf3e-53d8d810fb65.png)
 
