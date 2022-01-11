@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct FruitsDic_AppApp: App {
+	// MARK: -  APPStorage
+	@AppStorage("isOnboarding") var isOnoarding: Bool = true
+	
 	var body: some Scene {
 		WindowGroup {
-			OnboardingView()
+			if isOnoarding {
+				OnboardingView()
+			} else {
+				ContentView()
+			}
 		}
 	}
 }

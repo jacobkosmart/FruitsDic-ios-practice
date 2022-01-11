@@ -9,11 +9,14 @@ import SwiftUI
 
 struct StartButtonView: View {
 	// MARK: -  PROPERTY
+	// isOnboarding 을 optional 로 받아야 함
+	@AppStorage("isOnboarding") var isOnboarding: Bool?
 	
 	// MARK: -  BODY
 	var body: some View {
 		Button(action: {
-			print("Exit the onboarding")
+			// false 로 바꾸게 되면 @main 에서 설정한 대로 ContentView 로 이동
+			isOnboarding = false
 		}) {
 			HStack (spacing: 8) {
 				Text("Start")

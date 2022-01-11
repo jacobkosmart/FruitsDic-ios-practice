@@ -70,10 +70,6 @@
 
 ```
 
-```swift
-
-```
-
 #### 👉
 
 #### 👉
@@ -85,10 +81,6 @@
 #### 👉
 
 #### 👉
-
-#### 👉
-
-### 🔷 SwiftUI LifeCycle
 
 ### 🔷 ListView and Retrieve data using ForEach loop
 
