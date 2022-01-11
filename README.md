@@ -66,19 +66,11 @@
 
 ```
 
-```swift
-
-```
-
 #### 👉
 
-#### 👉 List
-
 ```swift
 
 ```
-
-### 🔷 DetailView
 
 ### 🔷 SettingView
 
