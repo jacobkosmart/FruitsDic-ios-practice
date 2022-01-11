@@ -72,17 +72,11 @@
 
 #### 👉
 
-#### 👉
+#### 👉 List
 
-#### 👉
+```swift
 
-#### 👉
-
-#### 👉
-
-#### 👉
-
-### 🔷 ListView and Retrieve data using ForEach loop
+```
 
 ### 🔷 DetailView
 
