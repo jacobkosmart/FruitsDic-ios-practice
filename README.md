@@ -72,12 +72,6 @@
 
 ```
 
-#### 👉
-
-```swift
-
-```
-
 #### 👉 [1.Onboarding screen using the new page TabView]()
 
 #### 👉 [2.Create data model and fetch data]()
