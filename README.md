@@ -3,9 +3,9 @@
 <!-- ! gif 스크린샷 -->
 
 <p>
-  <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149056894-b3a89648-baa0-43bc-a4bf-4a82de382d2d.gif">
-  <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149057143-1c8e85ef-7bb3-4f34-bc66-7dccfaa294ee.gif">
-  <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149057368-9bd8ae95-f0fa-4901-9ead-36ba48982c73.gif">
+  <img width="250" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149056894-b3a89648-baa0-43bc-a4bf-4a82de382d2d.gif">
+  <img width="250" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149057143-1c8e85ef-7bb3-4f34-bc66-7dccfaa294ee.gif">
+  <img width="250" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149057368-9bd8ae95-f0fa-4901-9ead-36ba48982c73.gif">
 
 </p>
 
