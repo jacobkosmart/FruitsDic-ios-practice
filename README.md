@@ -2,7 +2,12 @@
 
 <!-- ! gif 스크린샷 -->
 
-<img width="300" alt="스크린샷" src="">
+<p>
+  <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149056894-b3a89648-baa0-43bc-a4bf-4a82de382d2d.gif">
+  <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149057143-1c8e85ef-7bb3-4f34-bc66-7dccfaa294ee.gif">
+  <img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/149057368-9bd8ae95-f0fa-4901-9ead-36ba48982c73.gif">
+
+</p>
 
 ## 📌 Main Features
 
@@ -59,30 +64,43 @@
 
 <!-- ! ppt UI structure -->
 
+![슬라이드1](https://user-images.githubusercontent.com/28912774/149076078-289643ef-0697-426f-ac3f-ced40ddfea3e.jpeg)
+![슬라이드2](https://user-images.githubusercontent.com/28912774/149076088-0ba9be1d-4769-46f6-b9c9-22e8723bddee.jpeg)
+![슬라이드3](https://user-images.githubusercontent.com/28912774/149076094-7a85a25d-49d0-4f82-8445-960768859416.jpeg)
+
 ### 🔷 Model
 
 ```swift
+// FruitsModel.swift
+import SwiftUI
 
-
+// MARK: -  Fruit Model
+struct Fruit: Identifiable {
+	var id = UUID()
+	var title: String
+	var headline: String
+	var image: String
+	var gradientColors: [Color]
+	var description: String
+	var nutrition: [String]
+}
 ```
 
-#### 👉
+### 🔷 Check core codes in details
 
-```swift
+#### 👉 [1.Onboarding screen using the new page TabView](https://github.com/jacobkosmart/FruitsDic-ios-practice/blob/main/MD/1.CreateOnboardingScreen.md)
 
-```
+#### 👉 [2.Create data model and fetch data](https://github.com/jacobkosmart/FruitsDic-ios-practice/blob/main/MD/2.DataModel_FetchData.md)
 
-#### 👉 [1.Onboarding screen using the new page TabView]()
+#### 👉 [3.SwiftUI LifeCycle](https://github.com/jacobkosmart/FruitsDic-ios-practice/blob/main/MD/3.SwiftUI_LifeCycle.md)
 
-#### 👉 [2.Create data model and fetch data]()
+#### 👉 [4.ListView and Retrieve data using ForEach loop](https://github.com/jacobkosmart/FruitsDic-ios-practice/blob/main/MD/4.ListView_RetrieveData.md)
 
-#### 👉 [3.SwiftUI LifeCycle]()
+#### 👉 [5.DetailView](https://github.com/jacobkosmart/FruitsDic-ios-practice/blob/main/MD/5.DetailView_layout.md)
 
-#### 👉 [4.ListView and Retrieve data using ForEach loop]()
+#### 👉 [6.SettingView](https://github.com/jacobkosmart/FruitsDic-ios-practice/blob/main/MD/6.SettingView.md)
 
-#### 👉 [5.DetailView]()
-
-#### 👉 [6.SettingView]()
+#### 👉 [7.iPad Layout](https://github.com/jacobkosmart/FruitsDic-ios-practice/blob/main/MD/7.iPadLayout.md)
 
 <!-- #### 👉 -->
 
@@ -116,5 +134,11 @@
 🔶 🔷 📌 🔑 👉
 
 ## 🗃 Reference
+
+The Simple Life(cycle) of a SwiftUI View- [https://dbolella.medium.com/the-simple-life-cycle-of-a-swiftui-view-95e2e14848a2](https://dbolella.medium.com/the-simple-life-cycle-of-a-swiftui-view-95e2e14848a2)
+
+Developer apple docs in DisclosureGroup - [https://developer.apple.com/documentation/swiftui/disclosuregroup](https://developer.apple.com/documentation/swiftui/disclosuregroup)
+
+서근 개발노트 swiftUI - [https://seons-dev.tistory.com/50](https://seons-dev.tistory.com/50)
 
 Udemy SwiftUI Masterclass 2022 - [https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/](https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/)
