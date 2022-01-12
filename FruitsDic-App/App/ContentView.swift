@@ -11,6 +11,8 @@ struct ContentView: View {
 	// MARK: -  PROPERTY
 	var fruits: [Fruit] = fruitsData
 	
+	@State private var isShowingSettings: Bool = false
+	
 	// MARK: -  FUNCTION
 	
 	// MARK: -  BODY
@@ -27,6 +29,17 @@ struct ContentView: View {
 			}
 			.listStyle(.inset)
 			.navigationTitle("Fruits")
+			.navigationBarItems(
+				trailing:
+					Button(action: {
+						isShowingSettings = true
+					}) {
+						Image(systemName: "slider.horizontal.3")
+					} //: BUTTON
+					.sheet(isPresented: $isShowingSettings) {
+						SettingsView()
+					}
+			)
 		} //: NAVIGATION
 	}
 }
@@ -35,5 +48,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {
 		ContentView(fruits: fruitsData)
+			.preferredColorScheme(.dark)
 	}
 }

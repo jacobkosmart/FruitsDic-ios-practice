@@ -72,9 +72,11 @@
 
 ```
 
-### 🔷 SettingView
+#### 👉
 
-### 🔷
+```swift
+
+```
 
 #### 👉 [1.Onboarding screen using the new page TabView]()
 
